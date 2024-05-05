@@ -1,0 +1,8 @@
+.form__account{
+    text-align: center;
+    color: white;
+}
+.form__account a{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
