@@ -1,0 +1,54 @@
+.team{
+    width: 90%;
+    background-color: var(--primary-color);
+    margin: 0px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.team .section__title h2{
+    color: white;
+}
+.team .section__title h2::before,
+.team .section__title h2::after{
+    background-color: white;
+}
+
+.team .section__content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+}
+.team .section__content .member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.team .section__content .member .card .top{
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.team .section__content .member .card .top img{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+.team .section__content .member .card .bottom{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
