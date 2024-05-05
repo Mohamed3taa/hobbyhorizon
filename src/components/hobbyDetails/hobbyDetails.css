@@ -1,0 +1,31 @@
+.hobby__details{
+    padding-top: 100px;
+}
+.hobby__details-landing{
+    height: 70vh;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    overflow: hidden;
+}
+.hobby__details-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hobby__details-overlay h1{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+.hobby__details-overlay p{
+    color: var(--secondary-color);
+}
